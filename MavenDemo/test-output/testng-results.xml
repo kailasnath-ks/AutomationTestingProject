@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-25T21:13:07 IST" name="Default suite" finished-at="2025-06-25T21:13:41 IST" duration-ms="34167">
+    <groups>
+    </groups>
+    <test started-at="2025-06-25T21:13:07 IST" name="Default test" finished-at="2025-06-25T21:13:41 IST" duration-ms="34167">
+      <class name="MavenTestNg.DemoGuru">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MavenTestNg.DemoGuru@9d5509a]" started-at="2025-06-25T21:13:07 IST" name="setup" finished-at="2025-06-25T21:13:09 IST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCustomerTest()[pri:1, instance:MavenTestNg.DemoGuru@9d5509a]" started-at="2025-06-25T21:13:09 IST" name="addCustomerTest" finished-at="2025-06-25T21:13:19 IST" duration-ms="10345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="AddTariffCustomer()[pri:2, instance:MavenTestNg.DemoGuru@9d5509a]" started-at="2025-06-25T21:13:20 IST" name="AddTariffCustomer" finished-at="2025-06-25T21:13:24 IST" depends-on-methods="MavenTestNg.DemoGuru.addCustomerTest" duration-ms="4933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTariffCustomer -->
+        <test-method signature="AddTariffPlan()[pri:3, instance:MavenTestNg.DemoGuru@9d5509a]" started-at="2025-06-25T21:13:24 IST" name="AddTariffPlan" finished-at="2025-06-25T21:13:32 IST" duration-ms="7786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTariffPlan -->
+        <test-method signature="PayBill()[pri:4, instance:MavenTestNg.DemoGuru@9d5509a]" started-at="2025-06-25T21:13:32 IST" name="PayBill" finished-at="2025-06-25T21:13:40 IST" depends-on-methods="MavenTestNg.DemoGuru.addCustomerTest" duration-ms="7926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayBill -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MavenTestNg.DemoGuru@9d5509a]" started-at="2025-06-25T21:13:40 IST" name="tearDown" finished-at="2025-06-25T21:13:41 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MavenTestNg.DemoGuru -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
