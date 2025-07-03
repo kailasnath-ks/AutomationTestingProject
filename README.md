@@ -10,20 +10,20 @@ This project demonstrates end-to-end automation of the [Demo Guru99 Telecom Webs
 ## 📁 Project Structure
 
 AutomationTestingProject/
+AutomationTestingProject/
 ├── pom.xml
 ├── testng.xml
 ├── src/
-│ ├── main/java/
-│ │ └── MavenTestNg/
-│ │ ├── DemoGuru.java ← Main automation test script
-│ │ ├── AddTariffPlan.java ← Page/test component for adding tariff plans
-│ │ ├── WebOpen.java ← Browser setup & initialization
-│ │ ├── SkipTest.java ← TestNG skip test example
-│ │ ├── Dependency.java ← TestNG dependent test example
-│ │ └── TestCase.java ← Sample test class
+│ └── main/java/
+│ └── MavenTestNg/
+│ ├── DemoGuru.java ← Main automation test script
+│ ├── AddTariffPlan.java ← Page/test component for adding tariff plans
+│ ├── WebOpen.java ← Browser setup & initialization
+│ ├── SkipTest.java ← TestNG skip test example
+│ ├── Dependency.java ← TestNG dependent test example
+│ └── TestCase.java ← Sample test class
 ├── CustomerData.xlsx ← Excel data for test cases
-├── test-output/ ← TestNG-generated reports
-src/main/java/MavenTestNg/DemoGuru.java
+└── test-output/ ← TestNG-generated reports
 This class covers:
 Launching the application
 Adding a new customer
