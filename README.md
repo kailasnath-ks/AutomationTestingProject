@@ -11,7 +11,7 @@ This project demonstrates end-to-end automation of the [Demo Guru99 Telecom Webs
 
 
 
-
+```
 AutomationTestingProject/
 ├── pom.xml
 ├── testng.xml
@@ -26,8 +26,7 @@ AutomationTestingProject/
 │           └── TestCase.java       ← Sample test class
 ├── CustomerData.xlsx              ← Excel data for test cases
 └── test-output/                   ← TestNG-generated reports
-
-
+```
 
 
 ## ✅ This project covers:
