@@ -9,44 +9,42 @@ This project demonstrates end-to-end automation of the [Demo Guru99 Telecom Webs
 - **Eclipse IDE**
 ## 📁 Project Structure
 
-AutomationTestingProject/
+
+
+
 AutomationTestingProject/
 ├── pom.xml
 ├── testng.xml
 ├── src/
-│ └── main/java/
-│ └── MavenTestNg/
-│ ├── DemoGuru.java ← Main automation test script
-│ ├── AddTariffPlan.java ← Page/test component for adding tariff plans
-│ ├── WebOpen.java ← Browser setup & initialization
-│ ├── SkipTest.java ← TestNG skip test example
-│ ├── Dependency.java ← TestNG dependent test example
-│ └── TestCase.java ← Sample test class
-├── CustomerData.xlsx ← Excel data for test cases
-└── test-output/ ← TestNG-generated reports
-This class covers:
-Launching the application
-Adding a new customer
-Adding a tariff plan
-Linking customer and tariff
-Paying the bill
-Using @BeforeMethod, @Test, and @AfterMethod from TestNG
-✅ Features Automated
-✅ Open Guru99 Telecom website
+│   └── main/java/
+│       └── MavenTestNg/
+│           ├── DemoGuru.java       ← Main automation test script
+│           ├── AddTariffPlan.java  ← Page/test component for adding tariff plans
+│           ├── WebOpen.java        ← Browser setup & initialization
+│           ├── SkipTest.java       ← TestNG skip test example
+│           ├── Dependency.java     ← TestNG dependent test example
+│           └── TestCase.java       ← Sample test class
+├── CustomerData.xlsx              ← Excel data for test cases
+└── test-output/                   ← TestNG-generated reports
 
-✅ Add new customer
 
-✅ Add tariff plan
 
-✅ Link tariff plan to customer
 
-✅ Make bill payment
+## ✅ This project covers:
 
-✅ Use TestNG annotations for control flow
+- Launching the application
+- Adding a new customer
+- Adding a tariff plan
+- Linking customer and tariff
+- Paying the bill
+- Using `@BeforeMethod`, `@Test`, and `@AfterMethod` from TestNG
 
-✅ Skip and chain test execution using dependsOnMethods
+---
 
-✅ Data-driven testing using Excel file (Apache POI)
+## ✅ Features Automated
+
+- Open Guru99 Telecom website → [https://demo.guru99.com/telecom](https://demo.guru99.com/telecom)
+
 
 🛠 Tools & Technologies Used
 Tool/Tech	Description
